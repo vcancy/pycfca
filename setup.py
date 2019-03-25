@@ -8,7 +8,11 @@ import warnings
 from os import path
 
 
-from pycfca import __version__, __author__, __author_email__, __license__
+__author__ = "Vcancy"
+__author_email__ = "happiness1019@gmail.com"
+__copyright__ = "Copyright (C) 2018 Vcancy"
+__license__ = "LGPL 3.0"
+__version__ = "0.0.2"
 
 long_desc = ""
 if os.path.exists("README.md") and sys.platform == "linux2":
@@ -31,7 +35,6 @@ setup(
     license=__license__,
     classifiers=[
         "Development Status :: 3 - Alpha",
-        "License :: MIT",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
         "Topic :: Software Development :: Libraries :: Python Modules",
@@ -39,5 +42,6 @@ setup(
     install_requires=[
         "xmltodict==0.11.0",
         "lxml==4.2.3",
+        "requests==2.19.1"
     ]
 )

@@ -42,6 +42,6 @@ setup(
     install_requires=[
         "xmltodict==0.11.0",
         "lxml==4.2.3",
-        "requests==2.19.1"
+        "requests==2.20.0"
     ]
 )
